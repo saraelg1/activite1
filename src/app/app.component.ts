@@ -6,5 +6,26 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'activity1';
+  
+  posts=[
+  	{
+  		title : "Post 1",
+  		content : "ceci est le contenu du post 1",
+  		loveIts : 0,
+  		created_at : new Date()
+  	},
+  	{
+  		title : "Post 2",
+  		content : "ceci est le contenu du post 2",
+  		loveIts : 0,
+  		created_at : new Date()
+	},
+  	{
+  		title : "Post 3",
+  		content : "ceci est le contenu du post 3",
+  		loveIts : 0,
+  		created_at : new Date()
+  	}
+  ];
+
 }
